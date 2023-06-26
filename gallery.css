@@ -1,0 +1,64 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 2px;
+}
+body{
+    background: rgb(0,20,10);
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #00f;
+    border-style: double;
+    border-radius: 15px 50px;
+
+}
+.aloko1{
+    width: 100px;
+    height: 100px;
+}
+
+#arow{
+    font-size: 50px;
+    margin-left: 0px;
+    color: red;
+    text-decoration: none;
+}
+
+.open{
+    visibility: hidden;
+}
+.open p{
+    font-size: 20px;
+    color: yellow;
+    animation: slide 3s linear infinite;
+}
+h1{
+    text-transform: capitalize;
+    color: yellow;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 5px;
+    transition: all 2s;
+}
+button:hover{
+    background-color: #00f;
+    font-size: 20px;
+}
+
+/* ANIMATION STYLES */
+@keyframes slide{
+    from{
+        transform: translateX(-10px);
+    }
+    to{
+        transform: translateX(400px);
+    }
+}
